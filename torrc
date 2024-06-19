@@ -1,0 +1,8 @@
+#MaxCircuitDirtiness 1: Forces Tor to change circuits every second for new connections, increasing anonymity but potentially impacting performance.
+MaxCircuitDirtiness 1
+
+#CircuitBuildTimeout 2: Sets a fixed timeout of 10 seconds for building new circuits.
+CircuitBuildTimeout 2
+
+#LearnCircuitBuildTimeout 0: Disables Tor's adaptive learning for circuit build times, relying solely on the fixed timeout.
+LearnCircuitBuildTimeout 0
