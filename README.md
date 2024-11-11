@@ -5,5 +5,5 @@ curl -s "https://raw.githubusercontent.com/rix4uni/proxychains_setup/main/setup.
 
 ## Test command, you will see ip changing every 2 seconds
 ```
-while true; do proxychains curl ifconfig.me; done
+while true; do proxychains curl ipinfo.io/json; done
 ```
